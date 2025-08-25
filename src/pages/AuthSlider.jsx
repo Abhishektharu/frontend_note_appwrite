@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './AuthSlider.css';
-import Button from '../compontents/Buttons/Button';
+import { Button } from '../components';
+
 
 const AuthSlider = () => {
   const [rightPanelActive, setRightPanelActive] = useState(false);
